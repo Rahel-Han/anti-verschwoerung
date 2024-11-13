@@ -237,3 +237,32 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.timeline {
+    position: relative;
+    padding: 20px 0;
+}
+
+.timeline-item {
+    padding: 20px;
+    border-left: 2px solid #0d6efd;
+    position: relative;
+    margin-left: 20px;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    left: -11px;
+    top: 28px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2px solid #0d6efd;
+    border-radius: 50%;
+}
+
+.timeline-item h5 {
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
