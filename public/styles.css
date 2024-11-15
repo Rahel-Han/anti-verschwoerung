@@ -303,3 +303,24 @@ footer, .footer {
     }
 }
 
+.w-65 {
+    width: 65% !important;
+}
+
+/* Add these custom bright icon colors */
+.icon-bright-success {
+    color: #2ecc71 !important; /* Bright green */
+}
+
+.icon-bright-primary {
+    color: #3498db !important; /* Bright blue */
+}
+
+.icon-bright-warning {
+    color: #f1c40f !important; /* Bright yellow */
+}
+
+.icon-bright-danger {
+    color: #e74c3c !important; /* Bright red */
+}
+
